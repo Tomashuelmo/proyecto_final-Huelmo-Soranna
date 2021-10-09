@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+
+
+a{
+    color: #ffffff;
+    text-decoration:none ;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    width: 97%;
+    margin: auto;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* nav left */
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul li {
+    padding: 20px;
+    justify-content: center;
+}
+
+
