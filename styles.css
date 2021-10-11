@@ -5,7 +5,7 @@
 }
 
 div{
-    background: #000 ;
+     
     width: auto;
     
 }
@@ -18,7 +18,7 @@ body{
 }
 
 
-a{
+.container a{
     color: #ffffff;
     text-decoration:none ;
 }
@@ -30,6 +30,8 @@ ul{
 .container {
     width: 100%;
     margin: auto;
+    background: #000;
+
 }
 
 .nav-main {
@@ -60,12 +62,18 @@ ul{
 }
  /* show */
 
+
+hr{
+    margin: 1px;
+}
+
 .show{
     width: 100%;
     height:  800px;
     background: url(img/muebles\ 5.png) no-repeat center center/cover;
     margin-left: auto;
     padding-bottom: 60px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,4 +98,34 @@ ul{
 .btn:hover{
     opacity: .9;
 
+}
+
+
+/*cards*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.cards a{
+    text-decoration: none;
+}
+.cards img{
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.cards h3{
+    color: #000;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cards p{
+    color: #000;
 }
