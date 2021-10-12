@@ -22,7 +22,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .container a{
     color: #ffffff;
-    text-decoration:none ;
+    text-decoration:none;
 }
 
 ul{
@@ -97,6 +97,7 @@ hr{
     border: 1px solid #fff;
 }
 
+
 .btn:hover{
     opacity: .9;
 
@@ -131,3 +132,23 @@ hr{
 .cards p{
     color: #000;
 }
+
+.tituloMueble h3{
+    font-size: 30px;
+
+}
+
+/* muebles*/
+
+.btn_M{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font weight: bold;  
+    padding: 10px 10px;
+    background: #fff;
+    font size: 10px;
+    border: 1px solid #fff;
+}
+
+
