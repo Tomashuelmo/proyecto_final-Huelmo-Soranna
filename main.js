@@ -6,6 +6,9 @@ function addToCart(element) {
   cart.push(product);
   localStorage.setItem('cart', cart.toString());
 }
+function Vaciarlocalstorage(element){
+  localStorage.clear();
+}
 
 function fillCartList() {
   let cart = [];
