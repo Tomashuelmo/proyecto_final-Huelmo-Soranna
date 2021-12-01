@@ -1,8 +1,8 @@
 let cart = [];
 
 function addToCart(element) {
-  console.log(element.parentElement.children[2].innerHTML);
-  let product = element.parentElement.children[2].innerHTML;
+  console.log(element.parentElement.children[1].innerHTML);
+  let product = element.parentElement.children[1].innerHTML;
   cart.push(product);
   localStorage.setItem('cart', cart.toString());
 }
@@ -22,3 +22,7 @@ function fillCartList() {
 }
 
 fillCartList();
+
+function compra(){
+
+}
