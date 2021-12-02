@@ -23,6 +23,5 @@ function fillCartList() {
 
 fillCartList();
 
-function compra(){
 
-}
+
